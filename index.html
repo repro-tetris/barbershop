@@ -11,74 +11,142 @@
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <!-- #region HEADER -->
-    <header class="header">
-      <div class="container">
-        <div class="side-block">
-          <a href="" class="logo">
-            <img src="./Images/logo.svg" alt="" />
-          </a>
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="" class="social-link">Instagram</a>
-            </li>
-            <li class="social-item">
-              <a href="" class="social-link">Youtube</a>
-            </li>
-          </ul>
+    <div class="wrapper">
+      <!-- #region HEADER -->
+      <header class="header">
+        <div class="container">
+          <div class="header-sidebar">
+            <a href="" class="logo">
+              <img src="./Images/logo.svg" alt="" />
+            </a>
+            <ul class="social-list">
+              <li class="social-item">
+                <a href="" class="social-link">Instagram</a>
+              </li>
+              <li class="social-item">
+                <a href="" class="social-link">Youtube</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-slider">
+            <div class="header-thumb">
+              <img src="./Images/slider-img-3.jpg" alt="" class="header-img" />
+            </div>
+            <div class="header-title">
+              <p class="header-upname">A hair salon for men in Kyiv</p>
+              <h1 class="header-name">BarberShop</h1>
+              <p class="header-description">
+                Мы эксперты в модных мужских стрижках. <br />
+                Работаем быстро, осторожно и со вкусом.
+              </p>
+            </div>
+            <div class="header-buttons">
+              <button class="header-btn">Назад</button>
+              <button class="header-btn end">Вперед</button>
+            </div>
+
+            <div class="header-topline">
+              <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item">
+                    <nav-link><a href="" class="nav-link">О нас</a></nav-link>
+                  </li>
+                  <li class="nav-item">
+                    <nav-link
+                      ><a href="" class="nav-link">Услуги и цены</a></nav-link
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <nav-link><a href="" class="nav-link">Мастера</a></nav-link>
+                  </li>
+                  <li class="nav-item">
+                    <nav-link
+                      ><a href="" class="nav-link">Контакты</a></nav-link
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <ul class="contacts-list">
+                <li class="contacts-item">
+                  <a href="" class="contacts-link">+38 044 111 11 11</a>
+                </li>
+                <li class="contacts-item">
+                  <a href="" class="contacts-link online">онлайн-запись</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <nav-link><a href="" class="nav-link">О нас</a></nav-link>
-            </li>
-            <li class="nav-item">
-              <nav-link><a href="" class="nav-link">Услуги и цены</a></nav-link>
-            </li>
-            <li class="nav-item">
-              <nav-link><a href="" class="nav-link">Мастера</a></nav-link>
-            </li>
-            <li class="nav-item">
-              <nav-link><a href="" class="nav-link">Контакты</a></nav-link>
-            </li>
-          </ul>
-        </nav>
-        <ul class="contacts-list">
-          <li class="contacts-item">
-            <a href="" class="contacts-link">+38 044 111 11 11</a>
-          </li>
-          <li class="contacts-item">
-            <a href="" class="contacts-link">онлайн-запись</a>
-          </li>
-        </ul>
-      </div>
-    </header>
+      </header>
+    </div>
     <!-- #endregion -->
     <main class="main">
-      <!-- #region HERO -->
-      <section class="hero">
-        <div class="container">
-          <div class="hero-thumb">
-            <img src="./Images/slider-img-3.jpg" alt="" class="hero-img" />
+      <div class="wrapper">
+        <!-- #region About us -->
+        <section class="aboutus">
+          <div class="container">
+            <ul class="abountus-images">
+              <ul class="aboutus-item">
+                <img
+                  src="./Images/aboutus/img-1.jpg"
+                  alt=""
+                  width="270"
+                  class="aboutus-img"
+                />
+              </ul>
+              <ul class="aboutus-item">
+                <img
+                  src="./Images/aboutus/img-2.jpg"
+                  alt=""
+                  width="270"
+                  class="aboutus-img"
+                />
+              </ul>
+            </ul>
+            <div class="aboutus-block">
+              <p class="aboutus-subtitle">о нас</p>
+              <h2 class="aboutus-header">
+                Лучший Барбершоп<br />твоего города
+              </h2>
+              <p class="aboutus-accent">
+                Если ты хочешь добавить в свой образ больше уверенности – тебе
+                точно к нам.
+              </p>
+              <p class="aboutus-text">
+                Мы команда, которая никогда не останавливается на достигнутом и
+                жаждет перемен. И когда ты попадешь в руки нашего мастера, то
+                уже никогда не сможешь быть прежним. Мы команда, которая всегда
+                с клиентами "на одной волне". Поэтому, мы всегда готовы
+                усовершенствовать каждого, кто к нам приходит!
+              </p>
+
+              <button class="aboutus-btn">онлайн-запись</button>
+            </div>
           </div>
-          <div class="hero-title">
-            <p>A hair salon for men in Kyiv</p>
-            <h1>BarberShop</h1>
-            <p>
-              Мы эксперты в модных мужских стрижках. <br />
-              Работаем быстро, осторожно и со вкусом.
+        </section>
+        <!-- #endregion -->
+        <!-- #region Prices -->
+        <section class="prices">
+          <div class="container">
+            <p class="prices-preheader">
+              Проведи время в компании лучших мастеров
             </p>
+            <h2 class="prices-header">Услуги и цены</h2>
+            <table></table>
+            <table></table>
+            <button>онлайн-запись</button>
           </div>
-          <div class="hero-buttons">
-            <button class="hero-backward">Назад</button>
-            <button class="hero-forward">Вперед</button>
-          </div>
-        </div>
-      </section>
-      <!-- #endregion -->
+        </section>
+        <!-- #endregion -->
+      </div>
     </main>
     <footer class="footer"></footer>
   </body>
