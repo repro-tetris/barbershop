@@ -1,7 +1,7 @@
 * {
   /* outline: 1px dotted red; */
 }
-
+/* #region COMMON STYLES */
 h1,
 h2,
 h3,
@@ -39,6 +39,22 @@ a {
   margin: 0 auto;
   /* background-color: rgba(255, 0, 0, 0.2); */
 }
+
+.btn {
+  padding: 12px 24px;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+/* #endregion */
 
 /* #region HEADER */
 
@@ -306,7 +322,7 @@ a {
   margin-bottom: 40px;
 }
 
-.aboutus-btn {
+/* .aboutus-btn {
   padding: 12px 24px;
   border: 1px solid #ff6c00;
   border-radius: 25px;
@@ -318,7 +334,7 @@ a {
   letter-spacing: 0.09em;
   text-transform: uppercase;
   color: #303030;
-}
+} */
 /* #endregion */
 
 /* #region Prices */
@@ -340,6 +356,7 @@ a {
   line-height: 15px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  margin-bottom: 20px;
 
   color: rgba(157, 164, 189, 0.6);
 }
@@ -361,5 +378,59 @@ a {
   letter-spacing: 0.05em;
 
   color: #ffffff;
+  margin-bottom: 44px;
 }
+.prices-tables {
+  display: flex;
+}
+.prices-table {
+  flex-basis: calc(100% / 2);
+  padding: 30px 40px;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+.prices-table:first-child {
+  background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+}
+.prices-table:last-child {
+  background: linear-gradient(180deg, #090b13 0%, rgba(9, 11, 19, 0.2) 100%);
+  margin-bottom: 50px;
+}
+
+.prices-row td:last-child {
+  text-align: right;
+}
+.prices-row {
+  display: flex;
+  align-items: baseline;
+}
+
+.prices-row + .prices-row {
+  margin-top: 20px;
+}
+
+.cell-between {
+  flex-grow: 1;
+  position: relative;
+  /* border-bottom: 1px solid rgba(157, 164, 189, 0.12); */
+}
+.cell-between::before {
+  display: block;
+  content: "";
+
+  width: calc(100% - 12px);
+  margin-left: 6px;
+  height: 1px;
+  background-color: rgba(157, 164, 189, 0.12);
+}
+
+.prices .btn {
+  display: block;
+  margin: 0 auto;
+  color: white;
+}
+
 /* #endregion */
