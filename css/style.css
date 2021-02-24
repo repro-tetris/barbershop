@@ -434,3 +434,19 @@ a {
 }
 
 /* #endregion */
+/* #region WhyWe? */
+.whywe {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.achives-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.achives-item {
+  padding: 20px 24px;
+  background-color: #f7f7f7;
+}
+/* #endregion */
